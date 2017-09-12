@@ -5,17 +5,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
-import { NavbarComponent } from './components/navbar/navbar.component';
 
 import { HomeComponent } from './components/home/home.component';
 
 const ROUTES: Routes = [
+  { path: '', component: HomeComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     HomeComponent
   ],
   imports: [
