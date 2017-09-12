@@ -1,11 +1,39 @@
-md-toolbar-row {
-
+md-toolbar {
+  background-color: transparent;
+  border-bottom: 1px solid lightblue;
 }
 
-.toolbar-start {
-
+.fill {
+  flex: 1 1 auto;
 }
 
-.toolbar-end {
-  margin-left: auto;
+.mat-raised-button {
+  padding: 0 10px;
+  margin: 0 5px;
+  text-align: right;
+  border-radius: 10px;
+}
+
+.mat-raised-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.github {
+  width: calc(6ex + 62px);
+  background: url("../../../assets/navbar/GitHub-Mark-32px.png") no-repeat left 10px center;
+}
+
+.github:hover {
+  background-image: url("../../../assets/navbar/GitHub-Mark-Light-32px.png");
+}
+
+.linkedin {
+  width: calc(7ex + 62px);
+  background: url("../../../assets/navbar/In-2CRev-34px-R.png") no-repeat left 10px center;
+}
+
+.linkedin:hover {
+  background-color: #007bb6;
+  background-image: url("../../../assets/navbar/In-White-34px-R.png");
 }
