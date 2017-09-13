@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path=last-build/",
+    "build": "ng build --prod --aot --no-sourcemap --extract-css",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
