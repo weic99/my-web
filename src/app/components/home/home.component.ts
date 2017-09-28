@@ -10,7 +10,7 @@ export class HomeComponent {
   header = 'Wei Chen';
   subheader = 'Software Engineer';
 
-  github = 'https://github.com/weic99';
+  gitHub = 'https://github.com/weic99';
   linkedin = 'https://www.linkedin.com/in/wei-chen-b44a8012b/';
 
   constructor() { }
